@@ -1,5 +1,8 @@
+/* header-styles-related */
 body{
     font-family: "Work Sans", sans-serif;
+    
+ 
 }
 .banner-card{
     position: relative;
@@ -31,4 +34,96 @@ body{
     color: #FFFFFF;
     font-size: 20px;
     padding-top: 5px;
+}
+/* main styles related */
+.background-related{
+     
+}
+.circle{
+    background-image: url('../new-year-new-me/images/person.png');
+    background-repeat: no-repeat;
+    color: #F15B22;
+    
+    
+}
+.discription{
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+.discription-size{
+    font-size: 45px;
+}
+.discription-list{
+    font-size: 20px;
+}
+.background-text{
+     display: flex;
+     align-items: center;
+     padding: 200px 240px 150px 235px;
+     justify-content: space-between;
+     margin: 0px 230px;
+     
+
+}
+.web-list{
+    margin: 130px 230px;
+    padding: 130px 240px 130px 235px;
+    text-align: center;
+}
+.web-link{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    padding-right: 100px; 
+    justify-content: space-around;
+}
+.website-description{
+    
+}
+.Plans{
+    padding-bottom: 70px;
+    font-size: 40px;
+    font-family: bold;
+}
+.company-name{
+    font-size: 30px;
+    color: #151414;
+}
+.start{
+    color: #737272;
+    font-size: 25px;
+}
+.banner-pic{
+   margin: 0px 230px 130px 320px;
+   width: 1100px;
+   height: 300px;
+}
+.position{
+   position: relative;
+}
+.contract{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    padding-bottom: 250px;
+    margin: 0px 380px 130px 350px;
+    width: 450px;
+    height: 182px;
+
+    
+}
+.mindset{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.btn-mindset{
+    width: 160px;
+    height: 54px;
+    color: #F15B22;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+    
+
 }
