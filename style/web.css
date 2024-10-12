@@ -1,7 +1,8 @@
 /* header-styles-related */
 body{
     font-family: "Work Sans", sans-serif;
-    
+    /* margin: 0px 230px;
+     */
  
 }
 .banner-card{
@@ -36,14 +37,17 @@ body{
     padding-top: 5px;
 }
 /* main styles related */
-.background-related{
-     
+.background-text .circle{
+    position: r;
 }
 .circle{
-    background-image: url('../new-year-new-me/images/person.png');
-    background-repeat: no-repeat;
-    color: #F15B22;
-    
+   background-position: center right;
+    background-color: #F15B22;
+    height: 527px;
+    width:527px ;
+    border-radius: 50%;
+    margin-top: 140px;
+
     
 }
 .discription{
@@ -124,6 +128,58 @@ body{
     font-size: 20px;
     border-radius: 5px;
     border: 0px;
+}
+/* footer-styles-related */
+footer{
+    background: #151414;
+    /* width: 1600px; */
+    height: 525px;
+    margin-bottom: 130px;
+}
+.future-list{
+    padding: 90px 230px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between
+}
+.future-style{
     
-
+    width: 485px;
+    height: 327px;
+    /* padding-right: 400px; */
+    
+    
+}
+.passages{
+    font-size: ;
+    padding: 30px 0px;
+}
+.web-icon{
+    display: flex;
+    padding-top: 10px;
+}
+.web-icon img{
+    padding-right: 18px;
+}
+.subscribe-style{
+    display: block;
+    /* width: 325px; */
+    /* height: 204px; */
+    margin-right: 250px;
+}
+.subscribe{
+    padding-bottom: 30px;
+}
+.btn-subscribe{
+    padding-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+}
+.input-style{
+    width: 325px;
+    height: 64px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 20px;
 }
